@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>布局修改</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="viewport" content="width=240, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<script type="text/javascript" src="js/font-size.js" ></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="top_bar">
+					<div class="big_title">门禁监控管理</div>
+					<div class="small_title">最新数据</div>
+				</div>
+			</div>
+			<!--div-content_1 包含5个彩色框和1个白色显示在线、离线人数的方框-->
+			<div class="content_1">
+				<!--item 5个彩色方框总体样式  item_1、item_2……单独颜色样式-->
+				<div class="item item1">
+					<div class="item_container">
+						<div class="item_center">
+							<div class="item_img"></div>
+							<div class="item_title">白名单人脸库</div>
+						</div>
+					</div>
+					<div class="item_bottom">600人</div>
+				</div>
+				<div class="item item2">
+					<div class="item_container">
+						<div class="item_center">
+							<div class="item_img"></div>
+						    <div class="item_title">黑名单人脸库</div>
+						</div>
+					</div>
+					<div class="item_bottom">255人</div>
+				</div>
+				<div class="item item3">
+					<div class="item_container">
+						<div class="item_center">
+							<div class="item_img"></div>
+						    <div class="item_title">今日入校</div>
+						</div>
+					</div>
+					<div class="item_bottom">1800个</div>
+				</div>
+				<div class="item item4">
+					<div class="item_container">
+						<div class="item_center">
+							<div class="item_img"></div>
+						    <div class="item_title">今日离校</div>
+						</div>
+					</div>
+					<div class="item_bottom">1600人</div>
+				</div>
+				<div class="item item5">
+					<div class="item_container">
+						<div class="item_center">
+							<div class="item_img"></div>
+						    <div class="item_title">当前门禁点</div>
+						</div>
+					</div>
+					<div class="item_bottom">200个</div>
+				</div>
+				<!--div-number_show 显示在线 与 离线 方框-->
+				<div class="number_show">
+					<div class="number_title">
+						<span class="one">普通人脸门禁</span><span class="two">温度检测门禁</span>
+					</div>
+					<div class="line2"></div>
+					<div class="num_bottom">
+							<div class="num_content">
+								<span>在线</span>
+								<span>离线</span>
+							</div>
+							<div class="num_items">
+								<span id="n1">22</span>
+								<span id="n2">33</span>
+								<span id="n3">0</span>
+								<span id="n4">0</span>
+							</div>
+					</div>
+				</div>
+		</div>
+		
+		<!--div-conten_2  包含页面下方的8个方框-->
+		<div class="content_2">
+			<!--div-message 白色方框单个 message:运行中-->
+			<div class="message">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right">
+							<div>运行中</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+								<a href="#">点击查看</a>
+								<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--div-message_break 白色方框单个 message_break:故障-->
+			<div class="message_break">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left_break">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right_break">
+							<div>故障</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message_break">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left_break">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right_break">
+							<div>故障</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right">
+							<div>运行中</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message_break">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left_break">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right_break">
+							<div>故障</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right">
+							<div>运行中</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right">
+							<div>运行中</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message_break">
+				<div class="message_total">
+					<div class="message_top">
+						<div class="top_left_break">
+							<div class="left-word">XXXX门禁点</div>
+						</div>
+						<div class="top_right_break">
+							<div>故障</div>
+						</div>
+					</div>
+					<div class="message_middle">
+						<div class="middle-top">
+							<div class="middle-top-left">今日进入人次</div>
+							<div class="middle-top-right">今日离开人次</div>
+						</div>
+						<div class="middle-bottom">
+							<div class="left-num">300</div>
+							<div class="right-num">230</div>
+						</div>
+					</div>
+					<div class="message_middle2">
+						<div class="middle2_1"><label>门禁类型：</label><span>校园入口</span></div>
+						<div class="middle2_2"><label>设备个数：</label><span>5</span></div>
+					</div>
+					<div class="voiddiv"></div>
+					<div class="message_bottom">
+						<div class="bottom_word">
+							<a href="#">点击查看</a>
+							<div class="to"><div class="rt"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
